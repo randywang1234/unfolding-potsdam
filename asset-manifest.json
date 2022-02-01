@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/unfolding-potsdam/static/css/main.4160ba13.css",
+    "main.js": "/unfolding-potsdam/static/js/main.1ae0e7ce.js",
+    "static/js/787.0606de62.chunk.js": "/unfolding-potsdam/static/js/787.0606de62.chunk.js",
+    "index.html": "/unfolding-potsdam/index.html",
+    "main.4160ba13.css.map": "/unfolding-potsdam/static/css/main.4160ba13.css.map",
+    "main.1ae0e7ce.js.map": "/unfolding-potsdam/static/js/main.1ae0e7ce.js.map",
+    "787.0606de62.chunk.js.map": "/unfolding-potsdam/static/js/787.0606de62.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4160ba13.css",
+    "static/js/main.1ae0e7ce.js"
+  ]
+}
