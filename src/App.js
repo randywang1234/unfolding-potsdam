@@ -23,9 +23,7 @@ function App() {
         <div className="nav-pic">
           <img alt="Fhp_logo" src="./picture/FHP.png"></img>
         </div>  
-        {/* <div className="nav-text"> */}
           <p>Unfolding Potsdam — Multiple Perspectives on German Policy and Culture</p>
-        {/* </div> */}
       </div>
 
          <Map content={content} setContent={setContent} setHidden={setHidden} hidden={hidden}/>
