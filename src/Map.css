@@ -1,7 +1,6 @@
 .leaflet-container{
-    width: 1440px;
+    width: 100%;
     height: 935px;
-    margin-top:20px;
     z-index: 0;
 }
 .title{

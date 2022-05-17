@@ -7,43 +7,42 @@
 }
 .App {
   position: relative;
-  width: 1440px;
-  height: 1024px;
+  width: 100%;
+  /* height: 100%; */
 }
+
+
 .nav{
-  width: 1440px;
-  height: 89px;
+  width: 100%;
+  height: 90px;
   background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .nav-pic {
   width: 350px;
   height: 55px;
-  display: inline-block;
 }
 .nav-pic img{
   width: 313px;
   height: 55px;
-  margin:17px 29px 17px 25px;
-  vertical-align:middle;
 }
-.nav-text{
-  width: 1073px;
-  height: 89px;
-  margin-left:10px;
-  display: inline;
-  
+
+.nav p{
+  width: 90%;
+  font-size: 24px;
+  margin-right:100px;
+  text-align: center;
 }
-.nav-text p{
-  width: 1052px;
-  height: 37px;
-  font-size: 30px;
-  line-height: 30px;
-  display: inline-block;
-}
+
+
+
+
 .diary{
   position:absolute;
-  left: 904px;
-  top: 178px;
+  right: 25px;
+  top: 115px;
   width: 466px;
   height: 717px;
   background: #FFFFFF;
@@ -96,12 +95,13 @@ font-style: normal;
   font-size: 12px;
 }
 
+
 .intro{
   position: absolute;
 width: 311px;
 /* height: 288px; */
 left: 10px;
-top: 90px;
+top: 100px;
 
 background: #FFFFFF;
 border-radius: 10px;
@@ -129,13 +129,13 @@ border-radius: 10px;
 .App .myself{
   position: absolute;
   bottom:12px;
-  left:5px;
+  left:20px;
   width: 170px;
-height: 13px;
-font-weight: bold;
-font-size: 12px;
-line-height: 14px;
-color:#FFFFFF;
+  height: 13px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color:#FFFFFF;
 }
 .App .myself a{
   color:#FFFFFF;

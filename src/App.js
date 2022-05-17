@@ -21,11 +21,13 @@ function App() {
     <div className="App">
       <div className='nav'>
         <div className="nav-pic">
-          <img alt="" src="./picture/FHP.png"></img>
+          <img alt="Fhp_logo" src="./picture/FHP.png"></img>
         </div>  
-        <div className="nav-text">
+        {/* <div className="nav-text"> */}
           <p>Unfolding Potsdam — Multiple Perspectives on German Policy and Culture</p>
-        </div>
+        {/* </div> */}
+      </div>
+
          <Map content={content} setContent={setContent} setHidden={setHidden} hidden={hidden}/>
          { hidden &&
         <div className='diary'>
@@ -56,7 +58,7 @@ function App() {
         <p className='myself'>PROJECT BY / <a href="https://github.com/randywang1234">Randy Wang</a></p>
         
       </div>
-    </div>
+
     
       </>
   );
